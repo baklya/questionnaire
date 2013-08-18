@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="index.xsl" type="text/xml"?>
+<questions>
+	<question>
+		<index>1</index>
+		<body>
+			<paragraph><strong>Год рождения.</strong></paragraph>
+		</body>
+	</question>
+	<question>
+		<index>2</index>
+		<body>
+			<paragraph><strong>Город, в котором вы живёте.</strong></paragraph>
+		</body>
+	</question>
+	<question>
+		<index>3</index>
+		<body>
+			<paragraph><strong>Вуз, факультет, специальность, кафедра.</strong></paragraph>
+		</body>
+	</question>
+	<question>
+		<index>4</index>
+		<body>
+			<paragraph><strong>Год окончания вуза.</strong></paragraph>
+		</body>
+	</question>
+	<question>
+		<index>5</index>
+		<body>
+			<paragraph><strong>Уровень владения английским языком:</strong></paragraph>
+			<paragraph><radio>
+				<value>1</value>
+				<name>q5</name>
+				<idprefix>a5</idprefix>
+				<data> начальный;</data>
+			</radio></paragraph>
+			<paragraph><radio>
+				<value>2</value>
+				<name>q5</name>
+				<idprefix>a5</idprefix>
+				<data> средний;</data>
+			</radio></paragraph>
+			<paragraph><radio>
+				<value>2</value>
+				<name>q5</name>
+				<idprefix>a5</idprefix>
+				<data> свободное владение.</data>
+			</radio></paragraph>
+		</body>
+	</question>
+	<question>
+		<index>6</index>
+		<body><paragraph><strong>Чего вы ожидаете от участия в Школе?</strong></paragraph></body>
+	</question>
+	<question>
+		<index>7</index>
+		<body><paragraph><strong>Откуда вы о нас узнали?</strong></paragraph></body>
+	</question>
+	<question>
+		<index>8</index>
+		<body><paragraph><strong>Сколько времени вы были бы готовы уделять стажировке или работе в Яндексе?</strong></paragraph></body>
+	</question>
+	<question>
+		<index>9</index>
+		<body><paragraph><strong>Расскажите о вашем опыте разработки. Нам будет интересно всё - как серьезный интерфейс, так и просто домашняя страничка.</strong></paragraph></body>
+	</question>
+	<question>
+		<index>10</index>
+		<body><paragraph><strong>Если вы где-нибудь работали, расскажите, какие у вас были должностные обязанности и был ли опыт работы в команде.</strong></paragraph></body>
+	</question>
+	<question>
+		<index>11</index>
+		<body><paragraph><strong>Перечислите, какими программными продуктами вы пользуетесь в своей работе - от редактора до специализированных утилит (Intellij Idea, Node.js, Uglify.js, GNU Make). Для каждого инструмента укажите, какие задачи вы с помощью него решаете и почему выбрали именно его.</strong></paragraph></body>
+	</question>
+	<question>
+		<index>12</index>
+		<body><paragraph><strong>Пользуетесь ли вы командной строкой? Какими командами вы пользуетесь и какие задачи вы решаете с их помощью? С какими программами вы преимущественно или полностью взаимодействуете через интерфейс командной строки?</strong></paragraph></body>
+	</question>
+	<question>
+		<index>13</index>
+		<body>
+			<paragraph><strong>Напишите на JavaScript функцию, которая выводит список всех чисел, которые равны сумме факториалов своих цифр. Пример такого числа:</strong></paragraph>
+			<paragraph><text>4! + 0! + 5! + 8! + 5! = 40585</text></paragraph>
+			<paragraph>
+				<composite>
+					<text>В качестве ответа на вопрос пришлите ссылку на </text>
+					<link>http://jsfiddle.net/</link>
+					<text> с вашим кодом или на ваш репозиторий на </text>
+					<link>https://github.com/</link>
+					<text>.</text>
+				</composite>
+			</paragraph>
+		</body>
+	</question>
+	<question>
+		<index>14</index>
+		<body>
+			<paragraph><strong>Вы - пилот грузового межгалактического корабля. Ваша работа - перевозка грузов с одной планету на другую. Грузоподъемность вашего корабля ограничена, поэтому за один рейс вы можете перевезти не более N кг полезного груза. Ваш корабль умеет сообщать свое состояние (местоположение и степень загруженности), а также летать в любую точку пространства. Каждая планета может содержать на себе груз, который можно взять. Также на каждой планете груз можно оставить.</strong></paragraph>
+			<paragraph><strong>Задание</strong></paragraph>
+			<paragraph><strong>Даны незавершенные интерфейсы корабля и планеты. Напишите недостающий код.</strong></paragraph>
+			<paragraph><strong>Полное условие задачи доступно на</strong></paragraph>
+			<paragraph><link>https://github.com/yandex-shri/introtask-space</link></paragraph>
+			<paragraph>
+				<composite>
+					<text>В качестве ответа на вопрос пришлите ссылку на </text>
+					<link>http://jsfiddle.net/</link>
+					<text> с вашим кодом или на ваш репозиторий на </text>
+					<link>https://github.com/</link>
+					<text>.</text>
+				</composite>
+			</paragraph>
+		</body>
+	</question>
+	<question>
+		<index>15</index>
+		<body>
+			<paragraph><strong>Сверстайте форму-анкету с нашими заданиями для кандидатов. Страница должна работать в следующих браузерах: MSIE (8, 9, 10), Google Chrome (26, 27), Firefox (20, 21), Opera (12.15, 12.14), Яндекс.Браузер 1.5. По возможности используйте приёмы безопасной деградации CSS. Страница должна содержать интерактив, реализованный с помощью JS и jQuery. Это может быть:</strong></paragraph>
+			<list>
+				<element>проверка полноты и правильности заполнения полей (где это возможно);</element>
+				<element>возможность свернуть и развернуть разделы (аккордеон);</element>
+				<element>индикатор заполнения анкеты;</element>
+				<element>что-нибудь ещё.</element>
+			</list>
+			<paragraph><strong>Подумайте над тем, как эти данные будут отправляться на сервер.</strong></paragraph>
+			<paragraph><strong>Будет плюсом, если вы сверстаете страницу, используя БЭМ.</strong></paragraph>
+			<paragraph><strong>Дополнительные задания</strong></paragraph>
+			<paragraph><strong>1. Выполните задание про форму-анкету, используя один из классических шаблонизаторов: Handlebars, mustache, Dust, Jade и т.п.</strong></paragraph>
+			<paragraph><strong>2. Выполните задание про форму-анкету, используя один из экзотических шаблонизаторов: XSLT, YATE, BEMHTML и т.п.</strong></paragraph>
+			<paragraph>
+				<composite>
+					<text>Разработку необходимо вести на </text>
+					<link>https://github.com/</link>
+					<text>. В качестве ответа на вопрос пришлите ссылку на проект.</text>
+				</composite>
+			</paragraph>
+		</body>
+	</question>
+</questions>

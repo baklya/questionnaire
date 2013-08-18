@@ -1,0 +1,57 @@
+{{#questions}}{{#index}}<h1>Вопрос {{index}}</h1><div>{{#body}}{{#ul}}<ul>{{#list}}{{#li}}<li><p><strong>{{li}}</strong></p></li>{{/li}}{{/list}}</ul>{{/ul}}{{#p}}<p>{{#input}}<input type="radio" name="{{name}}" value="{{value}}" id="{{idprefix}}_{{value}}" /><label for="{{idprefix}}_{{value}}">{{data}}</label>{{/input}}{{#strong}}<strong>{{strong}}</strong>{{/strong}}{{#link}}<strong><a href="{{link}}" target="_blank">{{link}}</a></strong>{{/link}}{{#text}}{{text}}{{/text}}{{#composite}}<strong>{{#text}}{{text}}{{/text}}{{#link}}<a href="{{link}}" target="_blank">{{link}}</a>{{/link}}</strong>{{/composite}}</p>{{/p}}{{/body}}<textarea rows="4" cols="80" name="q{{index}}_1" id="q{{index}}_1"></textarea></div>{{/index}}{{/questions}}
+
+
+
+{{#questions}}
+	{{#index}}
+		<h1>Вопрос {{index}}</h1>
+		<div>
+			{{#body}}
+					{{#ul}}
+					<ul>
+						{{#list}}
+							{{#li}}
+								<li>
+									<p><strong>{{li}}</strong></p>
+								</li>
+							{{/li}}
+						{{/list}}
+					</ul>
+					{{/ul}}
+					{{#p}}
+						<p>
+						{{#input}}
+							<input type="radio" name="{{name}}" value="{{value}}" id="{{idprefix}}_{{value}}" /><label for="{{idprefix}}_{{value}}">{{data}}</label>
+						{{/input}}
+						{{#strong}}
+							<strong>{{strong}}</strong>
+						{{/strong}}
+						{{#link}}
+							<strong><a href="{{link}}" target="_blank">{{link}}</a></strong>
+						{{/link}}
+						{{#text}}
+							{{text}}
+						{{/text}}
+						{{#composite}}
+							<strong>
+								{{#text}}
+									{{text}}
+								{{/text}}
+								{{#link}}
+									<a href="{{link}}" target="_blank">{{link}}</a>
+								{{/link}}
+							</strong>
+						{{/composite}}
+						</p>
+					{{/p}}
+			{{/body}}
+			<textarea rows="4" cols="80" name="q{{index}}_1" id="q{{index}}_1"></textarea>
+		</div>
+	{{/index}}
+{{/questions}}
+
+
+
+
+
+
